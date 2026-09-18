@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Signature Hamid BBQ pizza on a dark plate">
+  <defs>
+    <radialGradient id="plateG" cx="0.38" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#3a2b22"/>
+      <stop offset="0.7" stop-color="#1c1410"/>
+      <stop offset="1" stop-color="#120c09"/>
+    </radialGradient>
+    <radialGradient id="crustG" cx="0.42" cy="0.36" r="0.7">
+      <stop offset="0" stop-color="#f2bd6b"/>
+      <stop offset="0.55" stop-color="#e0a24e"/>
+      <stop offset="1" stop-color="#be7f2e"/>
+    </radialGradient>
+    <radialGradient id="sauceG" cx="0.45" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#d84a32"/>
+      <stop offset="1" stop-color="#a92e1f"/>
+    </radialGradient>
+    <radialGradient id="meltG" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#ffcf5e"/>
+      <stop offset="0.65" stop-color="#f5b53f"/>
+      <stop offset="1" stop-color="#d98c2e"/>
+    </radialGradient>
+    <radialGradient id="pepG" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#c94135"/>
+      <stop offset="1" stop-color="#8f261f"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- plate shadow -->
+  <ellipse cx="200" cy="248" rx="168" ry="34" fill="#000" opacity="0.55" filter="url(#soft)"/>
+
+  <!-- plate -->
+  <circle cx="200" cy="200" r="186" fill="url(#plateG)"/>
+  <circle cx="200" cy="200" r="186" fill="none" stroke="#5a4639" stroke-width="2" opacity="0.5"/>
+  <circle cx="200" cy="200" r="162" fill="none" stroke="#2a1f18" stroke-width="3"/>
+
+  <!-- pizza base -->
+  <g transform="rotate(-14 200 200)">
+    <circle cx="200" cy="200" r="150" fill="#f6c77c"/>
+    <circle cx="200" cy="200" r="150" fill="url(#crustG)"/>
+    <circle cx="200" cy="200" r="138" fill="url(#crustG)"/>
+    <circle cx="200" cy="200" r="136" fill="none" stroke="#c98d3b" stroke-width="3" opacity="0.6"/>
+
+    <!-- sauce -->
+    <circle cx="200" cy="200" r="118" fill="url(#sauceG)"/>
+    <circle cx="200" cy="200" r="118" fill="none" stroke="#7e2014" stroke-width="2" opacity="0.5"/>
+
+    <!-- cheese melt -->
+    <circle cx="200" cy="200" r="110" fill="url(#meltG)"/>
+    <circle cx="200" cy="200" r="110" fill="none" stroke="#e6a83a" stroke-width="2" opacity="0.55"/>
+    <!-- char blisters -->
+    <circle cx="162" cy="180" r="14" fill="#cf7d1f" opacity="0.55"/>
+    <circle cx="236" cy="212" r="18" fill="#cf7d1f" opacity="0.5"/>
+    <circle cx="196" cy="252" r="12" fill="#cf7d1f" opacity="0.45"/>
+    <circle cx="248" cy="158" r="10" fill="#cf7d1f" opacity="0.5"/>
+    <circle cx="150" cy="236" r="11" fill="#cf7d1f" opacity="0.5"/>
+
+    <!-- Bermuda/olive rings -->
+    <g fill="#614d3d" opacity="0.85">
+      <circle cx="180" cy="152" r="11"/>
+      <ellipse cx="252" cy="152" rx="12" ry="9" transform="rotate(30 252 152)"/>
+      <circle cx="232" cy="264" r="10"/>
+      <ellipse cx="158" cy="262" rx="10" ry="8" transform="rotate(-24 158 262)"/>
+      <ellipse cx="262" cy="226" rx="10" ry="8" transform="rotate(50 262 226)"/>
+    </g>
+
+    <!-- pepperoni -->
+    <g>
+      <circle cx="200" cy="196" r="20" fill="url(#pepG)"/>
+      <circle cx="200" cy="196" r="20" fill="none" stroke="#7e201a" stroke-width="1.5" opacity="0.55"/>
+      <circle cx="200" cy="196" r="9" fill="#d24a3a" opacity="0.6"/>
+
+      <circle cx="166" cy="204" r="14" fill="url(#pepG)"/>
+      <circle cx="166" cy="204" r="14" fill="none" stroke="#7e201a" stroke-width="1.5" opacity="0.55"/>
+      <circle cx="166" cy="204" r="6.5" fill="#d24a3a" opacity="0.6"/>
+
+      <circle cx="238" cy="170" r="15" fill="url(#pepG)"/>
+      <circle cx="238" cy="170" r="15" fill="none" stroke="#7e201a" stroke-width="1.5" opacity="0.55"/>
+      <circle cx="238" cy="170" r="7" fill="#d24a3a" opacity="0.6"/>
+
+      <circle cx="206" cy="248" r="13" fill="url(#pepG)"/>
+      <circle cx="206" cy="248" r="13" fill="none" stroke="#7e201a" stroke-width="1.5" opacity="0.55"/>
+      <circle cx="206" cy="248" r="6" fill="#d24a3a" opacity="0.6"/>
+
+      <circle cx="256" cy="228" r="11" fill="url(#pepG)"/>
+      <circle cx="256" cy="228" r="11" fill="none" stroke="#7e201a" stroke-width="1.5" opacity="0.55"/>
+      <circle cx="256" cy="228" r="5" fill="#d24a3a" opacity="0.6"/>
+
+      <circle cx="154" cy="238" r="12" fill="url(#pepG)"/>
+      <circle cx="154" cy="238" r="12" fill="none" stroke="#7e201a" stroke-width="1.5" opacity="0.55"/>
+      <circle cx="154" cy="238" r="5.5" fill="#d24a3a" opacity="0.6"/>
+    </g>
+
+    <!-- basil leaves -->
+    <g fill="#f3a13c" opacity="0.95">
+      <path d="M214 140c8-10 20-9 24 1-8 10-20 9-24-1z" transform="rotate(-12 224 140)"/>
+      <path d="M178 236c8-10 20-9 24 1-8 10-20 9-24-1z" transform="rotate(160 190 236)"/>
+    </g>
+
+    <!-- crust sheen highlight -->
+    <path d="M120 200a80 80 0 0 1 68-72" stroke="#fff2cf" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.4"/>
+  </g>
+</svg>
